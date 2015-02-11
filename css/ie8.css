@@ -1,0 +1,41 @@
+/* 
+    Document   : ie8
+    Created on : 2013-05-13, 09:31:32
+    Author     : CrappyIE
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.type-gallery li								{ width: 50px !important; display: block !important; }
+.staff-members-container li	a					{ width: 50px !important; }
+.widget table td								{ color: #DED5D9 !important; }
+
+.posts > h3.cat-title:before,
+.widgets.sidebar h3.widget-title:before,
+.posts > h3.cat-title,
+
+.widgets.sidebar h3.widget-title				{ font-size: 20px !important; }
+.related-container h4							{ font-size: 17.5px !important; }
+
+#site-footer h3.widget-title:before				{ opacity:.25 !important; filter: alpha(opacity=25) !important; font-size: 22px !important; }
+#site-footer h3.widget-title					{ font-size: 24.5px !important; }
+#site-footer .staff-members a,
+#site-footer .staff-members a:visited			{ background: #000; opacity:.25 !important; filter: alpha(opacity=25) !important; }
+
+#site-footer .staff-members a img				{ position: relative; z-index: 900; opacity:1 !important; filter: alpha(opacity=100) !important; }
+
+#myCarousel2 .carousel-control					{ opacity:100; filter: alpha(opacity=100); }
+#myCarousel2 .carousel-control.right:before,
+#myCarousel2 .carousel-control.left:before		{ font-size: 16px !important; }
+
+#copyright-info p								{ color: #fff; opacity:65; filter: alpha(opacity=65); }
+#copyright-info p a								{ opacity:100 !important; filter: alpha(opacity=100) !important; }
+
+#site-footer #wp-calendar						{ color: #fff; }
+#site-footer #wp-calendar caption,	
+#site-footer #wp-calendar tr:nth-child(even) td,
+#site-footer #wp-calendar th,
+#site-footer #wp-calendar tfoot td				{ background: #000; opacity:.25; filter: alpha(opacity=25); }
+#site-footer #wp-calendar span					{ display: inline-block; zoom: 1; color: #fff; opacity:1; filter: alpha(opacity=100); position: relative; }
+
+span.wpcf7-not-valid-tip						{ color: red !important; border: none !important; }
